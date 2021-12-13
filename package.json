@@ -1,0 +1,10 @@
+{
+    "name": "promises-quizz",
+    "version": "1.0.0",
+    "private": true,
+    "devDependencies": {
+      "prettier": "2.5.1"
+    }
+
+  }
+  
