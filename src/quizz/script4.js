@@ -21,8 +21,7 @@ const main = async () => {
 
     await Promise.all(array.map(promise => promise()))
 
-    console.log('Finished : end of main')
-    process.exit()
+    console.log('Finished')
 }
 
 main()

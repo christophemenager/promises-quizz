@@ -15,8 +15,7 @@ const main = async () => {
     await promise1()
     await [promise2(), promise3()]
 
-    console.log('Finished : end of main')
-    process.exit()
+    console.log('Finished')
 }
 
 main()

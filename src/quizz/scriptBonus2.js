@@ -6,7 +6,7 @@ const timeoutSleep = milliseconds => {
 
 const main = () => {
     timeoutSleep(0)
-    console.log('Finished : end of main')
+    console.log('Finished')
 }
 
 // https://www.youtube.com/watch?v=8aGhZQkoFbQ&ab_channel=JSConf

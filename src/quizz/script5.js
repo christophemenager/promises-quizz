@@ -29,8 +29,7 @@ const main = async () => {
         }),
     )
 
-    console.log('Finished : end of main')
-    process.exit()
+    console.log('Finished')
 }
 
 main()

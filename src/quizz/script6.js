@@ -14,7 +14,7 @@ const asynchronousAction = async ({ message, duration_in_ms, error_message }) =>
 const main = async () => {
     const promise1 = () => asynchronousAction({ message: '1', duration_in_ms: 500 })
     const promise2 = () =>
-        asynchronousAction({ message: '2', duration_in_ms: 100, error_message: 'error' })
+        asynchronousAction({ message: '2', duration_in_ms: 100, error_message: 'error_message' })
     const promise3 = () => asynchronousAction({ message: '3', duration_in_ms: 400 })
 
     const array = [promise1, promise2, promise3]
@@ -29,7 +29,7 @@ const main = async () => {
         console.log(error)
     }
 
-    console.log('Finished : end of main')
+    console.log('Finished')
     process.exit()
 }
 

@@ -10,14 +10,13 @@ const customSleep = milliseconds => {
     while (current_time < start_time + milliseconds) {
         current_time = new Date().getTime()
     }
+    console.log('customSleep')
 }
 
 const main = () => {
     timeoutSleep(100)
-    customSleep(5000)
-    console.log('Finished : end of main')
+    customSleep(3000)
+    console.log('Finished')
 }
-
-// https://www.youtube.com/watch?v=8aGhZQkoFbQ&ab_channel=JSConf
 
 main()
