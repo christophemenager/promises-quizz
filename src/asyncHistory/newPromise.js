@@ -8,9 +8,13 @@ const asynchronousAction = () => {
     })
 }
 
-const main = async () => {
-    await asynchronousAction()
-    console.log('End of asynchronous action')
+const main = () => {
+    const asyncMethod = async () => {
+        await asynchronousAction()
+        console.log('End of asynchronous action')
+    }
+
+    asyncMethod()
 }
 
 main()
