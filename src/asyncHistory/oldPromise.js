@@ -10,6 +10,7 @@ const asynchronousAction = () => {
 
 const main = () => {
     asynchronousAction().then(() => console.log('End of asynchronous action'))
+    console.log('End of main')
 }
 
 main()

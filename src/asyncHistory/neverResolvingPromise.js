@@ -1,11 +1,7 @@
 // Async/Await syntax with promises, the most modern way
 
 const asynchronousAction = () => {
-    return new Promise(resolve => {
-        setTimeout(() => {
-            resolve()
-        }, 2000)
-    })
+    return new Promise(resolve => {})
 }
 
 const main = () => {

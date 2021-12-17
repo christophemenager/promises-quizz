@@ -8,6 +8,7 @@ const asynchronousAction = ({ callback }) => {
 
 const main = () => {
     asynchronousAction({ callback: () => console.log('End of asynchronous action') })
+    console.log('End of main')
 }
 
 main()
